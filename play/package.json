@@ -14,6 +14,7 @@
     "vite": "^4.3.5"
   },
   "dependencies": {
-    "@pacsdesignvue/components": "workspace:^"
+    "@pacsdesignvue/components": "workspace:^",
+    "pacsdesignvue": "1.0.1"
   }
 }
