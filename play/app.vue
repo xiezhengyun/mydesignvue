@@ -1,6 +1,3 @@
-import { createApp } from "vue";
-import App from "./app.vue";
-
-const app = createApp(App);
-
-app.mount("#app");
+<template>
+  <div>启动测试</div>
+</template>
