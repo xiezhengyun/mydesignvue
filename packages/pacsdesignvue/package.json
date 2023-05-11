@@ -1,0 +1,28 @@
+{
+  "name": "pacsdesignvue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "scripts": {
+    "release": "release-it",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiezhengyun/mydesignvue"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "typings": "lib/index.d.ts",
+  "keywords": [
+    "pacs组件库"
+  ],
+  "author": "xiezy154",
+  "license": "ISC"
+}
