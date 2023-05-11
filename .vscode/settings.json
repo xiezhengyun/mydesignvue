@@ -1,0 +1,50 @@
+{
+  "scm.alwaysShowProviders": true,
+  "vetur.validation.template": false,
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "editor.tabSize": 2,
+  // #每次保存的时候自动格式化
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  // #每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript", //  用eslint的规则检测js文件
+    "vue", // 检测vue文件
+    "html",
+    "ts",
+    "typescript"
+  ],
+  "gitlens.views.searchAndCompare.files.layout": "list",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+  ],
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "prettier.singleQuote": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.trailingComma": "none",
+  "eslint.alwaysShowStatus": true,
+  "editor.showUnused": true,
+  "prettier.bracketSameLine": true,
+  "html.format.wrapAttributes": "force-expand-multiline"
+}

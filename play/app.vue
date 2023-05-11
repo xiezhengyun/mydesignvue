@@ -5,5 +5,5 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from "@pacsdesignvue/components";
+import { Button } from '@pacsdesignvue/components'
 </script>
