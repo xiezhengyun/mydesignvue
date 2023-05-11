@@ -12,5 +12,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",
     "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "@pacsdesignvue/components": "workspace:^"
   }
 }
