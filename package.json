@@ -5,8 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "pacsdesignvue:dev": "pnpm run --filter ./play dev",
     "build:pacsdesignvue": "gulp -f packages/components/script/build/index.ts",
-    "publish:pacsdesignvue": "gulp -f packages/components/script/publish/index.ts"
+    "publish:pacsdesignvue": "gulp -f packages/components/script/publish/index.ts",
+    "docs:dev": "pnpm run --filter site docs:dev",
+    "docs:build": "pnpm run --filter site docs:build",
+    "docs:deploy": "pnpm run --filter site docs:deploy"
   },
   "keywords": [],
   "author": "",

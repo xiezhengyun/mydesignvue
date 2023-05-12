@@ -1,11 +1,5 @@
 # 快速开始
 
-- 初始化框架
-
-```
-npm create easyest
-```
-
 - 安装 pnpm
 
 ```
@@ -23,11 +17,11 @@ pnpm install
 **注意:** 这里需要先执行一次打包,因为组件库文档引用了打包后的文件
 
 ```
-pnpm run easyest:build
+pnpm run pacsdesignvue:build
 ```
 
 - 启动测试项目
 
 ```
-pnpm run easyest:dev
+pnpm run pacsdesignvue:dev
 ```

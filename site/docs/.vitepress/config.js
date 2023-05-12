@@ -18,7 +18,11 @@ export default {
             {
               text: '快速开始',
               link: '/guild/quickstart'
-            }
+            },
+            {
+              text: '开发组件',
+              link: '/guild/develop'
+            },
           ]
         }
       ],
