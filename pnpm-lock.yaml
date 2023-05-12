@@ -60,8 +60,6 @@ importers:
 
   packages/pacsdesignvue: {}
 
-  packages/utils: {}
-
   play:
     dependencies:
       '@pacsdesignvue/components':
