@@ -22,10 +22,12 @@ const run = async (command, path) => {
 // run('deploy.sh', resolve(__dirname, '../'))
 exec('./deploy.sh', (error, stdout, stderr) => {
   if (error) {
+    console.log(error)
     console.log('Error in removing files')
     return
   }
   if (stderr) {
+    console.log(stderr)
     console.log('an error with file system')
     return
   }
