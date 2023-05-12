@@ -25,3 +25,18 @@ pnpm run pacsdesignvue:build
 ```
 pnpm run pacsdesignvue:dev
 ```
+
+- 发布
+
+```
+// 查看npm镜像源地址
+npm config get registry
+// 检查 npm 源，如果是淘宝源，则需要改回 npm 源
+// npm config set registry https://registry.npmjs.org/
+// npm login 
+
+pnpm run pacsdesignvue:build
+
+pnpm run publish:pacsdesignvue
+
+```

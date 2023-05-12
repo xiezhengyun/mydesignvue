@@ -9,7 +9,7 @@ npm run docs:build
 # 进入待发布的目录
 cd docs/.vitepress/dist
 
-git remote add mydesignvueui https://github.com/xiezhengyun/mydesignvueui.git
+git remote add mydesignvueui https://github.com/mydesignvue/mydesignvue.git
 git add -A
 git commit -m 'deploy'
 
